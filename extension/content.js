@@ -5,7 +5,7 @@ chrome.storage.local.get(["isOn"], function (result) {
 			isOn: true,
 		})
 })
-
+ 
 function setState(state) {
 	if (state) document.body.classList.add("unminus")
 	else document.body.classList.remove("unminus")
